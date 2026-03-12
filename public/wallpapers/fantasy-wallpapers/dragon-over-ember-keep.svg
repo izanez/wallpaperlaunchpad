@@ -1,0 +1,26 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1536' height='1024' viewBox='0 0 1536 1024' fill='none'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#ff7a18'/>
+      <stop offset='55%' stop-color='#25003b'/>
+      <stop offset='100%' stop-color='#02030a'/>
+    </linearGradient>
+    <radialGradient id='glow' cx='50%' cy='40%' r='60%'>
+      <stop offset='0%' stop-color='#ffcf7a' stop-opacity='0.65'/>
+      <stop offset='100%' stop-color='#ffcf7a' stop-opacity='0'/>
+    </radialGradient>
+  </defs>
+  <rect width='100%' height='100%' fill='url(#bg)'/>
+  <rect width='100%' height='100%' fill='url(#glow)' opacity='0.95'/>
+  <g opacity='0.22'>
+    <circle cx='276' cy='225' r='123' fill='white'/>
+    <circle cx='1260' cy='184' r='82' fill='white'/>
+    <circle cx='1044' cy='737' r='164' fill='white'/>
+  </g>
+  <path d='M0 799 C 276 635, 522 922, 799 717 S 1260 532, 1536 840 V 1024 H 0 Z' fill='rgba(5,8,22,0.85)'/>
+  <path d='M0 901 C 338 717, 645 1044, 952 840 S 1352 676, 1536 922 V 1024 H 0 Z' fill='rgba(2,3,10,0.95)'/>
+  <g fill='none' stroke='#ffcf7a' stroke-opacity='0.45'>
+    <path d='M184 758 Q 430 307 676 655 T 1198 410' stroke-width='3'/>
+    <path d='M307 184 Q 799 41 1290 266' stroke-width='2'/>
+  </g>
+</svg>

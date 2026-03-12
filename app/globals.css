@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #060816;
+  --background-soft: #0e1329;
+  --surface: rgba(15, 22, 47, 0.78);
+  --surface-strong: rgba(20, 29, 59, 0.96);
+  --border: rgba(160, 181, 255, 0.16);
+  --text: #f2f5ff;
+  --muted: #aab3d6;
+  --accent: #6ee7ff;
+  --accent-strong: #4f7cff;
+  --highlight: #ff6b9d;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(79, 124, 255, 0.2), transparent 30%),
+    radial-gradient(circle at 20% 20%, rgba(255, 107, 157, 0.16), transparent 28%),
+    linear-gradient(180deg, #050816 0%, #060a1a 45%, #04050f 100%);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.glass-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.grid-fade::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), transparent);
+  pointer-events: none;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

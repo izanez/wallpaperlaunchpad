@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "fantasy-wallpapers",
+    "name": "Fantasy Wallpapers",
+    "shortDescription": "Epic kingdoms, dragons, and mythic scenes for cinematic desktops and phones.",
+    "description": "Explore AI-crafted fantasy wallpapers with towering castles, ancient forests, glowing magic, and heroic silhouettes designed for premium desktop and mobile displays.",
+    "intro": "Fantasy wallpapers blend scale, mood, and worldbuilding. Browse rich scenes built for crisp screens, atmospheric lighting, and clean wallpaper composition.",
+    "tags": ["dragons", "castles", "magic", "kingdoms", "forests", "warriors"],
+    "relatedCategories": ["dark-fantasy-wallpapers", "space-wallpapers", "gaming-wallpapers"]
+  },
+  {
+    "slug": "dark-fantasy-wallpapers",
+    "name": "Dark Fantasy Wallpapers",
+    "shortDescription": "Brooding ruins, cursed landscapes, and mythic shadows with premium contrast.",
+    "description": "Discover dark fantasy wallpapers featuring ruined thrones, moonlit cathedrals, spectral warriors, and ominous skies with dramatic cinematic depth.",
+    "intro": "Dark fantasy wallpapers focus on tension, atmosphere, and contrast. Expect moody palettes, ruined architecture, and haunting light built for immersive backgrounds.",
+    "tags": ["ruins", "cursed", "moonlight", "cathedrals", "spectral", "warriors"],
+    "relatedCategories": ["fantasy-wallpapers", "gaming-wallpapers", "cyberpunk-wallpapers"]
+  },
+  {
+    "slug": "cyberpunk-wallpapers",
+    "name": "Cyberpunk Wallpapers",
+    "shortDescription": "Neon skylines, electric rain, and futuristic streets rendered for modern screens.",
+    "description": "Browse cyberpunk wallpapers with glowing megacities, rainy alleyways, augmented heroes, and high-contrast neon scenes tailored for 4K and mobile devices.",
+    "intro": "Cyberpunk wallpapers lean into electric color, dense city detail, and polished tech-noir framing for standout desktop and phone setups.",
+    "tags": ["neon", "cities", "rain", "androids", "megacity", "holograms"],
+    "relatedCategories": ["gaming-wallpapers", "space-wallpapers", "dark-fantasy-wallpapers"]
+  },
+  {
+    "slug": "space-wallpapers",
+    "name": "Space Wallpapers",
+    "shortDescription": "Galaxies, nebulas, and cosmic horizons with sharp detail and cinematic scale.",
+    "description": "Find space wallpapers packed with orbiting worlds, luminous nebula clouds, astronaut silhouettes, and expansive deep-space color for premium backgrounds.",
+    "intro": "Space wallpapers emphasize scale, clean composition, and vivid cosmic lighting that works beautifully across ultrawide monitors and mobile screens.",
+    "tags": ["galaxies", "nebula", "planets", "stars", "astronauts", "cosmos"],
+    "relatedCategories": ["cyberpunk-wallpapers", "fantasy-wallpapers", "mobile-wallpapers"]
+  },
+  {
+    "slug": "gaming-wallpapers",
+    "name": "Gaming Wallpapers",
+    "shortDescription": "High-energy worlds, competitive vibes, and stylized action scenes for setups.",
+    "description": "Browse gaming wallpapers inspired by fantasy quests, sci-fi battlegrounds, esports lighting, and stylized character scenes made for immersive setups.",
+    "intro": "Gaming wallpapers combine character-driven compositions, strong silhouettes, and punchy lighting for desktop battlestations and mobile lock screens.",
+    "tags": ["warriors", "bosses", "arenas", "mechs", "quests", "loot"],
+    "relatedCategories": ["cyberpunk-wallpapers", "fantasy-wallpapers", "dark-fantasy-wallpapers"]
+  },
+  {
+    "slug": "mobile-wallpapers",
+    "name": "Mobile Wallpapers",
+    "shortDescription": "Portrait-first AI wallpapers tuned for lock screens and high-contrast mobile displays.",
+    "description": "Explore mobile wallpapers with vertical compositions, sharp focal points, and polished gradients optimized for modern phones and OLED displays.",
+    "intro": "Mobile wallpapers prioritize vertical balance, negative space for widgets, and crisp detail that still feels premium on smaller screens.",
+    "tags": ["portrait", "minimal", "amoled", "vertical", "lockscreen", "glow"],
+    "relatedCategories": ["space-wallpapers", "cyberpunk-wallpapers", "fantasy-wallpapers"]
+  }
+]

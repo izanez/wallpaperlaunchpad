@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Dark Dragon Pack",
+    "slug": "dark-dragon-pack",
+    "coverImage": "/wallpapers/fantasy-wallpapers/dragon-over-ember-keep.svg",
+    "shortDescription": "A moody fantasy pack of dragons, ruins, and shadow-lit hero scenes built for cinematic setups.",
+    "wallpapers": [
+      "dragon-over-ember-keep",
+      "crown-of-hollow-ruins",
+      "ashen-knight-vigil"
+    ],
+    "tags": [
+      "fantasy",
+      "dragons",
+      "dark fantasy",
+      "pack"
+    ],
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Neon City Pack",
+    "slug": "neon-city-pack",
+    "coverImage": "/wallpapers/cyberpunk-wallpapers/neon-storm-district.svg",
+    "shortDescription": "Electric rain, holograms, and high-contrast city glow collected into one cyberpunk wallpaper pack.",
+    "wallpapers": [
+      "neon-storm-district",
+      "hologram-alley-runner",
+      "vertical-neon-drift"
+    ],
+    "tags": [
+      "cyberpunk",
+      "neon",
+      "cities",
+      "pack"
+    ],
+    "accessLevel": "free"
+  },
+  {
+    "title": "Space Dreams Pack",
+    "slug": "space-dreams-pack",
+    "coverImage": "/wallpapers/space-wallpapers/orbit-above-andara.svg",
+    "shortDescription": "A cosmic collection of orbital vistas, nebula color, and immersive deep-space atmosphere.",
+    "wallpapers": [
+      "orbit-above-andara",
+      "nebula-diver",
+      "solar-bloom-lock-screen"
+    ],
+    "tags": [
+      "space",
+      "nebula",
+      "cosmic",
+      "pack"
+    ],
+    "accessLevel": "premium"
+  }
+]

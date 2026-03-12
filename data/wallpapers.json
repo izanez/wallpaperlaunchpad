@@ -1,0 +1,230 @@
+[
+  {
+    "title": "Dragon Over Ember Keep",
+    "slug": "dragon-over-ember-keep",
+    "category": "fantasy-wallpapers",
+    "image": "/wallpapers/fantasy-wallpapers/dragon-over-ember-keep.svg",
+    "tags": [
+      "dragons",
+      "castles",
+      "fire",
+      "desktop"
+    ],
+    "description": "A colossal dragon circles a torchlit mountain fortress beneath stormy twilight clouds.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-02-28T10:00:00.000Z",
+    "mood": "epic",
+    "style": "cinematic fantasy",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Moonlit Crystal Forest",
+    "slug": "moonlit-crystal-forest",
+    "category": "fantasy-wallpapers",
+    "image": "/wallpapers/fantasy-wallpapers/moonlit-crystal-forest.svg",
+    "tags": [
+      "magic",
+      "forests",
+      "moonlight",
+      "desktop"
+    ],
+    "description": "Silver moonlight spills across a luminous forest of crystal trees and drifting sparks.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-01T09:30:00.000Z",
+    "mood": "ethereal",
+    "style": "luminous fantasy",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Crown of Hollow Ruins",
+    "slug": "crown-of-hollow-ruins",
+    "category": "dark-fantasy-wallpapers",
+    "image": "/wallpapers/dark-fantasy-wallpapers/crown-of-hollow-ruins.svg",
+    "tags": [
+      "ruins",
+      "cursed",
+      "cathedrals",
+      "desktop"
+    ],
+    "description": "Broken gothic towers rise through fog while a cold eclipse crowns the ruined skyline.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-02T08:15:00.000Z",
+    "mood": "ominous",
+    "style": "gothic dark fantasy",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Ashen Knight Vigil",
+    "slug": "ashen-knight-vigil",
+    "category": "dark-fantasy-wallpapers",
+    "image": "/wallpapers/dark-fantasy-wallpapers/ashen-knight-vigil.svg",
+    "tags": [
+      "warriors",
+      "spectral",
+      "moonlight",
+      "desktop"
+    ],
+    "description": "An armored sentinel stands among blackened ruins lit by blue embers and fractured moonlight.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-03T12:45:00.000Z",
+    "mood": "brooding",
+    "style": "dark fantasy concept art",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Neon Storm District",
+    "slug": "neon-storm-district",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/neon-storm-district.svg",
+    "tags": [
+      "neon",
+      "cities",
+      "rain",
+      "desktop"
+    ],
+    "description": "Electric billboards reflect across rain-soaked avenues in a dense midnight megacity.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-04T07:20:00.000Z",
+    "mood": "electric",
+    "style": "tech-noir",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Hologram Alley Runner",
+    "slug": "hologram-alley-runner",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/hologram-alley-runner.svg",
+    "tags": [
+      "androids",
+      "holograms",
+      "neon",
+      "mobile"
+    ],
+    "description": "A lone runner moves through a narrow corridor of holograms, cables, and electric haze.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-05T11:10:00.000Z",
+    "mood": "kinetic",
+    "style": "cyberpunk concept art",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Orbit Above Andara",
+    "slug": "orbit-above-andara",
+    "category": "space-wallpapers",
+    "image": "/wallpapers/space-wallpapers/orbit-above-andara.svg",
+    "tags": [
+      "planets",
+      "stars",
+      "galaxies",
+      "desktop"
+    ],
+    "description": "A ringed planet hangs over a bright atmospheric horizon as starlight cuts through orbit.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-06T08:05:00.000Z",
+    "mood": "awe",
+    "style": "cinematic space art",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Nebula Diver",
+    "slug": "nebula-diver",
+    "category": "space-wallpapers",
+    "image": "/wallpapers/space-wallpapers/nebula-diver.svg",
+    "tags": [
+      "nebula",
+      "astronauts",
+      "cosmos",
+      "mobile"
+    ],
+    "description": "An astronaut silhouette drifts through radiant magenta and teal nebula clouds.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-07T06:50:00.000Z",
+    "mood": "dreamlike",
+    "style": "cosmic surrealism",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Arena of Mech Giants",
+    "slug": "arena-of-mech-giants",
+    "category": "gaming-wallpapers",
+    "image": "/wallpapers/gaming-wallpapers/arena-of-mech-giants.svg",
+    "tags": [
+      "mechs",
+      "arenas",
+      "bosses",
+      "desktop"
+    ],
+    "description": "Massive combat mechs face off under stadium lights and a charged storm sky.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-08T13:25:00.000Z",
+    "mood": "intense",
+    "style": "gaming key art",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Quest Board at Dawn",
+    "slug": "quest-board-at-dawn",
+    "category": "gaming-wallpapers",
+    "image": "/wallpapers/gaming-wallpapers/quest-board-at-dawn.svg",
+    "tags": [
+      "quests",
+      "loot",
+      "warriors",
+      "desktop"
+    ],
+    "description": "Heroes gather before a glowing quest board as the first light hits a bustling outpost.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-09T09:05:00.000Z",
+    "mood": "heroic",
+    "style": "stylized adventure art",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Vertical Neon Drift",
+    "slug": "vertical-neon-drift",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/vertical-neon-drift.svg",
+    "tags": [
+      "portrait",
+      "glow",
+      "amoled",
+      "mobile"
+    ],
+    "description": "A sleek portrait composition of neon fog, diagonal light trails, and dark OLED depth.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-10T07:40:00.000Z",
+    "mood": "sleek",
+    "style": "amoled neon",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Solar Bloom Lock Screen",
+    "slug": "solar-bloom-lock-screen",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/solar-bloom-lock-screen.svg",
+    "tags": [
+      "portrait",
+      "minimal",
+      "vertical",
+      "lockscreen"
+    ],
+    "description": "Warm solar gradients bloom upward with clean negative space for widgets and time.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-11T10:35:00.000Z",
+    "mood": "calm",
+    "style": "minimal gradient",
+    "accessLevel": "free"
+  }
+]
