@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Fantasy Wallpaper FAQ",
+    "slug": "fantasy-wallpaper-faq",
+    "description": "Answers to common questions about fantasy wallpapers, desktop usage, mobile formats, and visual styles.",
+    "intro": "Fantasy wallpapers remain one of the most popular categories because they combine story, atmosphere, and scale. This FAQ covers how to choose fantasy backgrounds, where they work best, and which sub-styles create the strongest setups.",
+    "questions": [
+      {
+        "question": "What makes a good fantasy wallpaper?",
+        "answer": "A good fantasy wallpaper combines strong composition, scale, and atmosphere. Castles, dragons, forests, and heroic silhouettes work well because they create clear focal points and cinematic depth."
+      },
+      {
+        "question": "Are fantasy wallpapers better for desktop or mobile?",
+        "answer": "Fantasy works well on both. Wide landscapes and fortress scenes look best on desktop, while portrait character art or magical towers translate better to mobile lock screens."
+      },
+      {
+        "question": "What is the difference between fantasy and dark fantasy wallpapers?",
+        "answer": "Fantasy wallpapers usually feel more adventurous and luminous, while dark fantasy uses more ruins, shadow, gothic architecture, and ominous lighting."
+      }
+    ],
+    "relatedCategories": ["fantasy-wallpapers", "dark-fantasy-wallpapers", "gaming-wallpapers"],
+    "relatedCollections": ["dark-dragon-pack"],
+    "featuredWallpapers": ["dragon-over-ember-keep", "moonlit-crystal-forest", "ashen-knight-vigil"]
+  },
+  {
+    "title": "Cyberpunk Wallpaper FAQ",
+    "slug": "cyberpunk-wallpaper-faq",
+    "description": "Common questions about cyberpunk wallpapers, neon city scenes, mobile lock screens, and desktop setups.",
+    "intro": "Cyberpunk wallpapers are popular because they combine dark contrast with intense color. This FAQ explains how to choose them well and where they look strongest.",
+    "questions": [
+      {
+        "question": "Why are cyberpunk wallpapers so popular?",
+        "answer": "They pair dark backgrounds with electric neon accents, which makes them ideal for premium-looking setups and OLED-friendly displays."
+      },
+      {
+        "question": "Are cyberpunk wallpapers good for gaming setups?",
+        "answer": "Yes. Rain, neon signage, holograms, and futuristic architecture all fit well with RGB desks and modern gaming displays."
+      },
+      {
+        "question": "Do cyberpunk scenes work on phones too?",
+        "answer": "Yes. Portrait cyberpunk scenes with one strong focal point are especially effective on lock screens and AMOLED phones."
+      }
+    ],
+    "relatedCategories": ["cyberpunk-wallpapers", "mobile-wallpapers", "gaming-wallpapers"],
+    "relatedCollections": ["neon-city-pack"],
+    "featuredWallpapers": ["neon-storm-district", "hologram-alley-runner", "vertical-neon-drift"]
+  },
+  {
+    "title": "Space Wallpaper FAQ",
+    "slug": "space-wallpaper-faq",
+    "description": "Learn how to choose the best space wallpapers for desktop, mobile, and cinematic setup aesthetics.",
+    "intro": "Space wallpapers are some of the most flexible visuals in any wallpaper library. They can feel minimal, epic, futuristic, or dreamlike depending on the colors and composition.",
+    "questions": [
+      {
+        "question": "What makes space wallpapers work so well?",
+        "answer": "Space scenes naturally create depth and scale. Planets, galaxies, and nebula gradients help backgrounds feel expansive without looking cluttered."
+      },
+      {
+        "question": "Which colors are best for cosmic wallpapers?",
+        "answer": "Cool blue and violet tones feel calm, while magenta, teal, and orange create a more vibrant cinematic look."
+      },
+      {
+        "question": "Are space wallpapers good for mobile lock screens?",
+        "answer": "Yes. Portrait nebula gradients and astronaut silhouettes work especially well because they keep the center readable while preserving atmosphere."
+      }
+    ],
+    "relatedCategories": ["space-wallpapers", "mobile-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["space-dreams-pack"],
+    "featuredWallpapers": ["orbit-above-andara", "nebula-diver", "solar-bloom-lock-screen"]
+  }
+]

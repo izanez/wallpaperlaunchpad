@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Desktop vs Mobile Wallpapers",
+    "slug": "desktop-vs-mobile-wallpapers",
+    "description": "Understand the difference between desktop and mobile wallpapers, including composition, resolution, and use cases.",
+    "intro": "Desktop and mobile wallpapers solve different visual problems. Desktop scenes need wider balance and icon space, while mobile wallpapers need stronger portrait framing and lock-screen-friendly composition.",
+    "sections": [
+      {
+        "heading": "Composition differences",
+        "content": "Desktop wallpapers work best with panoramic depth and balanced negative space. Mobile wallpapers need vertical weight, a clean focal point, and room for clocks and widgets."
+      },
+      {
+        "heading": "Resolution and orientation",
+        "content": "Desktop wallpapers in WallpaperLaunchpad are designed for wide displays, while mobile wallpapers use portrait dimensions and tighter framing."
+      },
+      {
+        "heading": "When to use each",
+        "content": "Use desktop scenes on workstations, ultrawides, and gaming setups. Use mobile wallpapers when you want a focused image for lock screens or home screens."
+      }
+    ],
+    "relatedCategories": ["mobile-wallpapers", "space-wallpapers", "fantasy-wallpapers"],
+    "relatedCollections": ["space-dreams-pack", "neon-city-pack"],
+    "featuredWallpapers": ["orbit-above-andara", "vertical-neon-drift", "solar-bloom-lock-screen"]
+  },
+  {
+    "title": "Best Wallpapers for OLED Screens",
+    "slug": "best-wallpapers-for-oled",
+    "description": "Find the best wallpaper styles for OLED and AMOLED displays, including dark fantasy, neon, and cosmic gradients.",
+    "intro": "OLED displays benefit from darker backgrounds, controlled glow, and strong focal areas. The best OLED wallpapers look bold while preserving contrast and readability.",
+    "sections": [
+      {
+        "heading": "Why dark wallpapers perform better",
+        "content": "Dark scenes make OLED contrast stand out more clearly and give accent colors greater impact."
+      },
+      {
+        "heading": "Top visual styles for OLED",
+        "content": "Cyberpunk neon, AMOLED gradients, dark fantasy ruins, and cosmic scenes with deep black backgrounds all work well."
+      },
+      {
+        "heading": "Choosing between bold and minimal",
+        "content": "Use bold neon or fantasy art when you want a statement setup, and gradient or cosmic minimalism for cleaner everyday use."
+      }
+    ],
+    "relatedCategories": ["mobile-wallpapers", "dark-fantasy-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["neon-city-pack", "space-dreams-pack"],
+    "featuredWallpapers": ["vertical-neon-drift", "crown-of-hollow-ruins", "nebula-diver"]
+  },
+  {
+    "title": "Best Wallpapers for Gaming Setups",
+    "slug": "best-wallpapers-for-gaming-setups",
+    "description": "Explore the best wallpaper types for gaming setups, RGB desks, dark themes, and premium battlestation aesthetics.",
+    "intro": "Gaming setups benefit from wallpapers that feel energetic without becoming distracting. Strong silhouettes, dark contrast, and neon or heroic visual themes generally perform best.",
+    "sections": [
+      {
+        "heading": "What works on a battlestation",
+        "content": "Cyberpunk scenes, mech art, dark fantasy landscapes, and high-contrast gaming visuals complement RGB lighting and modern monitors especially well."
+      },
+      {
+        "heading": "Why darker backgrounds dominate",
+        "content": "Dark wallpapers reduce visual noise around app windows and make LEDs, keyboards, and desk lighting stand out more cleanly."
+      },
+      {
+        "heading": "Best categories to browse first",
+        "content": "Gaming, cyberpunk, dark fantasy, and selected fantasy categories are the best starting points for immersive battlestation aesthetics."
+      }
+    ],
+    "relatedCategories": ["gaming-wallpapers", "cyberpunk-wallpapers", "dark-fantasy-wallpapers"],
+    "relatedCollections": ["dark-dragon-pack", "neon-city-pack"],
+    "featuredWallpapers": ["arena-of-mech-giants", "neon-storm-district", "ashen-knight-vigil"]
+  }
+]

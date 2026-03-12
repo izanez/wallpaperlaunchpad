@@ -4,6 +4,10 @@ import { FavoritesLink } from "@/components/favorites-link";
 const links = [
   { href: "/", label: "Home" },
   { href: "/browse", label: "Browse" },
+  { href: "/guides", label: "Guides" },
+  { href: "/themes", label: "Themes" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/insights", label: "Insights" },
   { href: "/collections", label: "Collections" },
   { href: "/pricing", label: "Pricing" },
   { href: "/categories/fantasy-wallpapers", label: "Categories" },

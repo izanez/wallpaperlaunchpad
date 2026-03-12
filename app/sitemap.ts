@@ -2,6 +2,11 @@ import type { MetadataRoute } from "next";
 import {
   getCategories,
   getCollections,
+  getFaqPages,
+  getIntentPages,
+  getSeoGuides,
+  getTagSlugs,
+  getThemeHubs,
   getWallpapers
 } from "@/lib/content";
 import { getSiteUrl } from "@/lib/seo";
@@ -28,6 +33,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9
+    },
+    {
+      url: `${siteUrl}/guides`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.88
+    },
+    {
+      url: `${siteUrl}/themes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.88
+    },
+    {
+      url: `${siteUrl}/faq`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.82
+    },
+    {
+      url: `${siteUrl}/insights`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.82
+    },
+    {
+      url: `${siteUrl}/tags`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
     }
   ];
 
@@ -52,5 +87,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75
   }));
 
-  return [...staticPages, ...categoryPages, ...collectionPages, ...wallpaperPages];
+  const guidePages = getSeoGuides().map((guide) => ({
+    url: `${siteUrl}/guides/${guide.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.78
+  }));
+
+  const themePages = getThemeHubs().map((theme) => ({
+    url: `${siteUrl}/themes/${theme.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.78
+  }));
+
+  const faqPages = getFaqPages().map((page) => ({
+    url: `${siteUrl}/faq/${page.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.76
+  }));
+
+  const insightPages = getIntentPages().map((page) => ({
+    url: `${siteUrl}/insights/${page.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.76
+  }));
+
+  const tagPages = getTagSlugs().map((tag) => ({
+    url: `${siteUrl}/tags/${tag}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.72
+  }));
+
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...collectionPages,
+    ...guidePages,
+    ...themePages,
+    ...faqPages,
+    ...insightPages,
+    ...tagPages,
+    ...wallpaperPages
+  ];
 }

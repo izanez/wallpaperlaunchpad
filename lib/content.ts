@@ -1,10 +1,26 @@
 import categories from "@/data/categories.json";
 import collections from "@/data/collections.json";
+import faqPages from "@/data/faq-pages.json";
+import intentPages from "@/data/intent-pages.json";
+import seoGuides from "@/data/seo-guides.json";
+import themeHubs from "@/data/theme-hubs.json";
 import wallpapers from "@/data/wallpapers.json";
-import type { Category, Collection, Wallpaper } from "@/lib/types";
+import type {
+  Category,
+  Collection,
+  FaqPage,
+  IntentPage,
+  SeoGuide,
+  ThemeHub,
+  Wallpaper
+} from "@/lib/types";
 
 const allCategories = categories as Category[];
 const allCollections = collections as Collection[];
+const allFaqPages = faqPages as FaqPage[];
+const allIntentPages = intentPages as IntentPage[];
+const allSeoGuides = seoGuides as SeoGuide[];
+const allThemeHubs = themeHubs as ThemeHub[];
 const allWallpapers = wallpapers as Wallpaper[];
 
 export function getCategories() {
@@ -21,6 +37,38 @@ export function getCollections() {
 
 export function getCollectionBySlug(slug: string) {
   return allCollections.find((collection) => collection.slug === slug);
+}
+
+export function getSeoGuides() {
+  return allSeoGuides;
+}
+
+export function getSeoGuideBySlug(slug: string) {
+  return allSeoGuides.find((guide) => guide.slug === slug);
+}
+
+export function getFaqPages() {
+  return allFaqPages;
+}
+
+export function getFaqPageBySlug(slug: string) {
+  return allFaqPages.find((page) => page.slug === slug);
+}
+
+export function getIntentPages() {
+  return allIntentPages;
+}
+
+export function getIntentPageBySlug(slug: string) {
+  return allIntentPages.find((page) => page.slug === slug);
+}
+
+export function getThemeHubs() {
+  return allThemeHubs;
+}
+
+export function getThemeHubBySlug(slug: string) {
+  return allThemeHubs.find((themeHub) => themeHub.slug === slug);
 }
 
 export function getWallpapers() {
@@ -163,4 +211,12 @@ export function getWallpaperFilterOptions(sourceWallpapers = allWallpapers) {
     styles: Array.from(new Set(sourceWallpapers.map((wallpaper) => wallpaper.style))).sort(),
     tags: Array.from(new Set(sourceWallpapers.flatMap((wallpaper) => wallpaper.tags))).sort()
   };
+}
+
+export function getTagSlugs() {
+  return Array.from(new Set(allWallpapers.flatMap((wallpaper) => wallpaper.tags))).sort();
+}
+
+export function getWallpapersByTag(tagSlug: string) {
+  return getWallpapers().filter((wallpaper) => wallpaper.tags.includes(tagSlug));
 }

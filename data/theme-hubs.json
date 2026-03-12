@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Dragon Wallpapers",
+    "slug": "dragon-wallpapers",
+    "description": "Browse dragon wallpapers for desktop and mobile with epic fantasy scale, firelight, and cinematic atmosphere.",
+    "intro": "Dragon wallpapers are among the strongest fantasy wallpaper themes because they create immediate scale and iconic silhouettes. They work particularly well in dark premium interfaces and dramatic desktop setups.",
+    "tags": ["dragons", "fantasy", "fire"],
+    "categories": ["fantasy-wallpapers", "dark-fantasy-wallpapers"],
+    "collections": ["dark-dragon-pack"],
+    "wallpapers": ["dragon-over-ember-keep", "ashen-knight-vigil", "crown-of-hollow-ruins"]
+  },
+  {
+    "title": "Castle Wallpapers",
+    "slug": "castle-wallpapers",
+    "description": "Discover castle wallpapers with torchlit keeps, moonlit towers, and grand fantasy architecture.",
+    "intro": "Castle wallpapers bring structure and narrative to a fantasy setup. They work especially well as widescreen backgrounds because towers, walls, and atmospheric skies naturally fill desktop compositions.",
+    "tags": ["castles", "fantasy", "kingdoms"],
+    "categories": ["fantasy-wallpapers", "dark-fantasy-wallpapers"],
+    "collections": ["dark-dragon-pack"],
+    "wallpapers": ["dragon-over-ember-keep", "crown-of-hollow-ruins", "moonlit-crystal-forest"]
+  },
+  {
+    "title": "Neon City Wallpapers",
+    "slug": "neon-city-wallpapers",
+    "description": "Find neon city wallpapers with holograms, rain, reflective streets, and electric cyberpunk color.",
+    "intro": "Neon city wallpapers deliver the highest contrast visuals in the library and feel instantly premium on modern displays. They are ideal for cyberpunk fans, gaming setups, and OLED screens.",
+    "tags": ["neon", "cities", "cyberpunk"],
+    "categories": ["cyberpunk-wallpapers", "mobile-wallpapers"],
+    "collections": ["neon-city-pack"],
+    "wallpapers": ["neon-storm-district", "hologram-alley-runner", "vertical-neon-drift"]
+  },
+  {
+    "title": "Galaxy Wallpapers",
+    "slug": "galaxy-wallpapers",
+    "description": "Explore galaxy wallpapers with star fields, planets, nebula gradients, and expansive cosmic depth.",
+    "intro": "Galaxy wallpapers are ideal for clean, high-impact screens because they combine vast space with controlled color. They work on both desktop monitors and portrait phone displays.",
+    "tags": ["galaxies", "space", "cosmic"],
+    "categories": ["space-wallpapers", "mobile-wallpapers"],
+    "collections": ["space-dreams-pack"],
+    "wallpapers": ["orbit-above-andara", "nebula-diver", "solar-bloom-lock-screen"]
+  },
+  {
+    "title": "Warrior Wallpapers",
+    "slug": "warrior-wallpapers",
+    "description": "Browse warrior wallpapers with heroic silhouettes, armor, bosses, and battle-ready atmosphere.",
+    "intro": "Warrior wallpapers work particularly well when you want a character-driven setup with strong focal points. They appear across fantasy, dark fantasy, and gaming categories.",
+    "tags": ["warriors", "heroic", "gaming"],
+    "categories": ["gaming-wallpapers", "dark-fantasy-wallpapers", "fantasy-wallpapers"],
+    "collections": ["dark-dragon-pack"],
+    "wallpapers": ["ashen-knight-vigil", "quest-board-at-dawn", "arena-of-mech-giants"]
+  },
+  {
+    "title": "Ruin Wallpapers",
+    "slug": "ruin-wallpapers",
+    "description": "Find ruin wallpapers with broken cathedrals, forgotten cities, and moody cinematic decay.",
+    "intro": "Ruin wallpapers feel rich and atmospheric because they combine architecture, mystery, and environmental storytelling. They fit especially well in dark fantasy and premium desktop themes.",
+    "tags": ["ruins", "dark fantasy", "cathedrals"],
+    "categories": ["dark-fantasy-wallpapers", "fantasy-wallpapers"],
+    "collections": ["dark-dragon-pack"],
+    "wallpapers": ["crown-of-hollow-ruins", "ashen-knight-vigil", "dragon-over-ember-keep"]
+  }
+]

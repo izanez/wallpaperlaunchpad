@@ -35,6 +35,60 @@ export type Collection = {
   accessLevel: AccessLevel;
 };
 
+export type SeoGuideSection = {
+  heading: string;
+  content: string;
+};
+
+export type SeoGuide = {
+  title: string;
+  slug: string;
+  description: string;
+  intro: string;
+  sections: SeoGuideSection[];
+  relatedCategories: string[];
+  relatedCollections: string[];
+  featuredWallpapers: string[];
+};
+
+export type ThemeHub = {
+  title: string;
+  slug: string;
+  description: string;
+  intro: string;
+  tags: string[];
+  categories: string[];
+  collections: string[];
+  wallpapers: string[];
+};
+
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+export type FaqPage = {
+  title: string;
+  slug: string;
+  description: string;
+  intro: string;
+  questions: FaqItem[];
+  relatedCategories: string[];
+  relatedCollections: string[];
+  featuredWallpapers: string[];
+};
+
+export type IntentPage = {
+  title: string;
+  slug: string;
+  description: string;
+  intro: string;
+  sections: SeoGuideSection[];
+  relatedCategories: string[];
+  relatedCollections: string[];
+  featuredWallpapers: string[];
+};
+
 export type Orientation = "desktop" | "mobile";
 
 export type GenerateWallpaperInput = {

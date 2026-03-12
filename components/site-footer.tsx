@@ -17,6 +17,21 @@ export function SiteFooter() {
             <Link href="/browse" className="transition hover:text-white">
               All wallpapers
             </Link>
+            <Link href="/guides" className="transition hover:text-white">
+              Guides
+            </Link>
+            <Link href="/themes" className="transition hover:text-white">
+              Theme hubs
+            </Link>
+            <Link href="/faq" className="transition hover:text-white">
+              FAQ
+            </Link>
+            <Link href="/insights" className="transition hover:text-white">
+              Insights
+            </Link>
+            <Link href="/tags" className="transition hover:text-white">
+              Tags
+            </Link>
             <Link href="/collections" className="transition hover:text-white">
               Collections
             </Link>
