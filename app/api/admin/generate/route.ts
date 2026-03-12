@@ -76,6 +76,7 @@ export async function POST(request: Request) {
   const categoryDirectory = await ensureWallpaperDirectory(category.slug);
   const dimensions = getDimensionsForOrientation(payload.orientation);
   const createdWallpapers: Wallpaper[] = [];
+  const imageModel = process.env.OPENAI_IMAGE_MODEL || "gpt-image-1-mini";
   const client = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
   });
@@ -86,7 +87,7 @@ export async function POST(request: Request) {
     const fileName = buildGeneratedFilename(title);
     const filePath = path.join(categoryDirectory, fileName);
     const response = await client.images.generate({
-      model: "gpt-image-1",
+      model: imageModel,
       size: `${dimensions.width}x${dimensions.height}` as "1024x1024" | "1536x1024" | "1024x1536" | "auto",
       prompt
     });

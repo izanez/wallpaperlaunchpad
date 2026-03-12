@@ -3,7 +3,7 @@
     "title": "Dragon Over Ember Keep",
     "slug": "dragon-over-ember-keep",
     "category": "fantasy-wallpapers",
-    "image": "/wallpapers/fantasy-wallpapers/dragon-over-ember-keep.svg",
+    "image": "/wallpapers/fantasy-wallpapers/dragon-over-ember-keep.png",
     "tags": [
       "dragons",
       "castles",
@@ -22,7 +22,7 @@
     "title": "Moonlit Crystal Forest",
     "slug": "moonlit-crystal-forest",
     "category": "fantasy-wallpapers",
-    "image": "/wallpapers/fantasy-wallpapers/moonlit-crystal-forest.svg",
+    "image": "/wallpapers/fantasy-wallpapers/moonlit-crystal-forest.png",
     "tags": [
       "magic",
       "forests",
@@ -41,7 +41,7 @@
     "title": "Crown of Hollow Ruins",
     "slug": "crown-of-hollow-ruins",
     "category": "dark-fantasy-wallpapers",
-    "image": "/wallpapers/dark-fantasy-wallpapers/crown-of-hollow-ruins.svg",
+    "image": "/wallpapers/dark-fantasy-wallpapers/crown-of-hollow-ruins.png",
     "tags": [
       "ruins",
       "cursed",
@@ -60,7 +60,7 @@
     "title": "Ashen Knight Vigil",
     "slug": "ashen-knight-vigil",
     "category": "dark-fantasy-wallpapers",
-    "image": "/wallpapers/dark-fantasy-wallpapers/ashen-knight-vigil.svg",
+    "image": "/wallpapers/dark-fantasy-wallpapers/ashen-knight-vigil.png",
     "tags": [
       "warriors",
       "spectral",
@@ -79,7 +79,7 @@
     "title": "Neon Storm District",
     "slug": "neon-storm-district",
     "category": "cyberpunk-wallpapers",
-    "image": "/wallpapers/cyberpunk-wallpapers/neon-storm-district.svg",
+    "image": "/wallpapers/cyberpunk-wallpapers/neon-storm-district.png",
     "tags": [
       "neon",
       "cities",
@@ -98,7 +98,7 @@
     "title": "Hologram Alley Runner",
     "slug": "hologram-alley-runner",
     "category": "cyberpunk-wallpapers",
-    "image": "/wallpapers/cyberpunk-wallpapers/hologram-alley-runner.svg",
+    "image": "/wallpapers/cyberpunk-wallpapers/hologram-alley-runner.png",
     "tags": [
       "androids",
       "holograms",
@@ -117,7 +117,7 @@
     "title": "Orbit Above Andara",
     "slug": "orbit-above-andara",
     "category": "space-wallpapers",
-    "image": "/wallpapers/space-wallpapers/orbit-above-andara.svg",
+    "image": "/wallpapers/space-wallpapers/orbit-above-andara.png",
     "tags": [
       "planets",
       "stars",
@@ -136,7 +136,7 @@
     "title": "Nebula Diver",
     "slug": "nebula-diver",
     "category": "space-wallpapers",
-    "image": "/wallpapers/space-wallpapers/nebula-diver.svg",
+    "image": "/wallpapers/space-wallpapers/nebula-diver.png",
     "tags": [
       "nebula",
       "astronauts",
@@ -155,7 +155,7 @@
     "title": "Arena of Mech Giants",
     "slug": "arena-of-mech-giants",
     "category": "gaming-wallpapers",
-    "image": "/wallpapers/gaming-wallpapers/arena-of-mech-giants.svg",
+    "image": "/wallpapers/gaming-wallpapers/arena-of-mech-giants.png",
     "tags": [
       "mechs",
       "arenas",
@@ -174,7 +174,7 @@
     "title": "Quest Board at Dawn",
     "slug": "quest-board-at-dawn",
     "category": "gaming-wallpapers",
-    "image": "/wallpapers/gaming-wallpapers/quest-board-at-dawn.svg",
+    "image": "/wallpapers/gaming-wallpapers/quest-board-at-dawn.png",
     "tags": [
       "quests",
       "loot",
