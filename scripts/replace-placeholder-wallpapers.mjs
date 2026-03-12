@@ -5,7 +5,7 @@ import OpenAI from "openai";
 const root = process.cwd();
 const wallpapersPath = path.join(root, "data", "wallpapers.json");
 
-const selectedSlugs = [
+const defaultSelectedSlugs = [
   "dragon-over-ember-keep",
   "moonlit-crystal-forest",
   "crown-of-hollow-ruins",
@@ -17,6 +17,9 @@ const selectedSlugs = [
   "arena-of-mech-giants",
   "quest-board-at-dawn"
 ];
+
+const cliSelectedSlugs = process.argv.slice(2);
+const selectedSlugs = cliSelectedSlugs.length > 0 ? cliSelectedSlugs : defaultSelectedSlugs;
 
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
