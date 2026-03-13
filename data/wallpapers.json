@@ -1,5 +1,385 @@
 [
   {
+    "title": "Castle of Aurora Peaks",
+    "slug": "castle-of-aurora-peaks",
+    "category": "fantasy-wallpapers",
+    "image": "/wallpapers/fantasy-wallpapers/castle-of-aurora-peaks.png",
+    "tags": [
+      "castles",
+      "kingdoms",
+      "mountains",
+      "desktop"
+    ],
+    "mood": "majestic",
+    "style": "cinematic fantasy",
+    "description": "A luminous mountain citadel glows above a sea of clouds while aurora light cuts across icy battlements.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Dragon Shrine Falls",
+    "slug": "dragon-shrine-falls",
+    "category": "fantasy-wallpapers",
+    "image": "/wallpapers/fantasy-wallpapers/dragon-shrine-falls.png",
+    "tags": [
+      "dragons",
+      "temples",
+      "waterfalls",
+      "desktop"
+    ],
+    "mood": "mythic",
+    "style": "epic fantasy art",
+    "description": "Ancient dragon statues tower over a cliffside shrine with bright waterfalls and storm-washed stone bridges.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Emerald Spellwoods",
+    "slug": "emerald-spellwoods",
+    "category": "fantasy-wallpapers",
+    "image": "/wallpapers/fantasy-wallpapers/emerald-spellwoods.png",
+    "tags": [
+      "magic",
+      "forests",
+      "runes",
+      "desktop"
+    ],
+    "mood": "enchanted",
+    "style": "luminous fantasy",
+    "description": "Glowing green mist winds through a deep magical forest where rune-lit trees and floating spores frame the path.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Cathedral of Black Rain",
+    "slug": "cathedral-of-black-rain",
+    "category": "dark-fantasy-wallpapers",
+    "image": "/wallpapers/dark-fantasy-wallpapers/cathedral-of-black-rain.png",
+    "tags": [
+      "cathedrals",
+      "ruins",
+      "storm",
+      "desktop"
+    ],
+    "mood": "ominous",
+    "style": "gothic dark fantasy",
+    "description": "A ruined cathedral rises through black rain and pale lightning with towering arches and cold fire at its gates.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Hollow Crown Procession",
+    "slug": "hollow-crown-procession",
+    "category": "dark-fantasy-wallpapers",
+    "image": "/wallpapers/dark-fantasy-wallpapers/hollow-crown-procession.png",
+    "tags": [
+      "cursed",
+      "moonlight",
+      "ritual",
+      "desktop"
+    ],
+    "mood": "ritualistic",
+    "style": "dark fantasy concept art",
+    "description": "Shadowed figures march beneath a skeletal crown monument through ash, fog, and moonlit banners.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Bone Lantern Marsh",
+    "slug": "bone-lantern-marsh",
+    "category": "dark-fantasy-wallpapers",
+    "image": "/wallpapers/dark-fantasy-wallpapers/bone-lantern-marsh.png",
+    "tags": [
+      "spectral",
+      "swamp",
+      "fog",
+      "desktop"
+    ],
+    "mood": "haunting",
+    "style": "grim atmospheric art",
+    "description": "Ghostly lanterns and crooked bones illuminate a drowned marsh where ruined idols emerge from the mist.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Signal Tower Skyline",
+    "slug": "signal-tower-skyline",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/signal-tower-skyline.png",
+    "tags": [
+      "neon",
+      "megacity",
+      "skylines",
+      "desktop"
+    ],
+    "mood": "charged",
+    "style": "tech-noir",
+    "description": "A giant signal spire pierces a neon skyline while monorails, holograms, and rain streak across the district.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Chrome Market Rush",
+    "slug": "chrome-market-rush",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/chrome-market-rush.png",
+    "tags": [
+      "cities",
+      "rain",
+      "holograms",
+      "desktop"
+    ],
+    "mood": "kinetic",
+    "style": "cyberpunk concept art",
+    "description": "Crowded chrome bazaars glow with magenta ads, wet pavement reflections, and rushing silhouettes in the foreground.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Midnight Monorail Echoes",
+    "slug": "midnight-monorail-echoes",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/midnight-monorail-echoes.png",
+    "tags": [
+      "monorail",
+      "neon",
+      "night",
+      "desktop"
+    ],
+    "mood": "restless",
+    "style": "futuristic noir",
+    "description": "Suspended monorails cut through a midnight city canyon filled with cyan glow, layered signs, and electric fog.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Vertical Neon Signal",
+    "slug": "vertical-neon-signal",
+    "category": "cyberpunk-wallpapers",
+    "image": "/wallpapers/cyberpunk-wallpapers/vertical-neon-signal.png",
+    "tags": [
+      "portrait",
+      "amoled",
+      "neon",
+      "mobile"
+    ],
+    "mood": "sleek",
+    "style": "amoled cyberpunk",
+    "description": "A portrait alley of razor-sharp neon symbols, dark reflective surfaces, and layered light built for OLED phones.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Sapphire Rift Voyager",
+    "slug": "sapphire-rift-voyager",
+    "category": "space-wallpapers",
+    "image": "/wallpapers/space-wallpapers/sapphire-rift-voyager.png",
+    "tags": [
+      "cosmos",
+      "stars",
+      "ships",
+      "desktop"
+    ],
+    "mood": "awe",
+    "style": "cinematic space art",
+    "description": "A lone exploration ship glides toward a brilliant sapphire rift opening between clouds of stars and dust.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Moons of Velara",
+    "slug": "moons-of-velara",
+    "category": "space-wallpapers",
+    "image": "/wallpapers/space-wallpapers/moons-of-velara.png",
+    "tags": [
+      "planets",
+      "moons",
+      "galaxies",
+      "desktop"
+    ],
+    "mood": "serene",
+    "style": "planetary concept art",
+    "description": "Twin moons hover over a cobalt planet horizon while distant rings and soft starfields create layered depth.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Eclipse Over Ion Sea",
+    "slug": "eclipse-over-ion-sea",
+    "category": "space-wallpapers",
+    "image": "/wallpapers/space-wallpapers/eclipse-over-ion-sea.png",
+    "tags": [
+      "eclipse",
+      "nebula",
+      "planets",
+      "desktop"
+    ],
+    "mood": "mysterious",
+    "style": "cosmic surrealism",
+    "description": "A violet eclipse pours light over a reflective alien sea with luminous atmosphere and distant orbital debris.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Boss Gate Awakening",
+    "slug": "boss-gate-awakening",
+    "category": "gaming-wallpapers",
+    "image": "/wallpapers/gaming-wallpapers/boss-gate-awakening.png",
+    "tags": [
+      "bosses",
+      "arenas",
+      "raids",
+      "desktop"
+    ],
+    "mood": "intense",
+    "style": "gaming key art",
+    "description": "A colossal raid gate opens beneath red energy as armored players face a giant silhouette and falling sparks.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Arcane Loot Vault",
+    "slug": "arcane-loot-vault",
+    "category": "gaming-wallpapers",
+    "image": "/wallpapers/gaming-wallpapers/arcane-loot-vault.png",
+    "tags": [
+      "loot",
+      "quests",
+      "magic",
+      "desktop"
+    ],
+    "mood": "rewarding",
+    "style": "stylized adventure art",
+    "description": "A treasure chamber of glowing loot, magical seals, and polished armor bursts with radiant color and depth.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Neon Arena Clash",
+    "slug": "neon-arena-clash",
+    "category": "gaming-wallpapers",
+    "image": "/wallpapers/gaming-wallpapers/neon-arena-clash.png",
+    "tags": [
+      "arenas",
+      "esports",
+      "action",
+      "desktop"
+    ],
+    "mood": "competitive",
+    "style": "esports sci-fi art",
+    "description": "Fast-moving fighters collide in a neon arena framed by giant displays, smoke, and dramatic side lighting.",
+    "width": 1536,
+    "height": 1024,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Obsidian Bloom Screen",
+    "slug": "obsidian-bloom-screen",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/obsidian-bloom-screen.png",
+    "tags": [
+      "portrait",
+      "amoled",
+      "minimal",
+      "lockscreen"
+    ],
+    "mood": "minimal",
+    "style": "amoled floral abstract",
+    "description": "A dark portrait wallpaper with obsidian petals, soft glow, and clean negative space for icons and widgets.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Prism Pulse Drift",
+    "slug": "prism-pulse-drift",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/prism-pulse-drift.png",
+    "tags": [
+      "portrait",
+      "glow",
+      "gradient",
+      "mobile"
+    ],
+    "mood": "vibrant",
+    "style": "gradient glass abstract",
+    "description": "Vertical ribbons of prism light drift across deep shadow with glossy gradients and a crisp premium phone composition.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
+    "title": "Moon Sigil Lock Screen",
+    "slug": "moon-sigil-lock-screen",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/moon-sigil-lock-screen.png",
+    "tags": [
+      "portrait",
+      "moonlight",
+      "minimal",
+      "vertical"
+    ],
+    "mood": "calm",
+    "style": "mystic minimalism",
+    "description": "A silver moon sigil floats over dark velvet tones with subtle runic detail and space for lock-screen widgets.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Crimson Circuit Vertical",
+    "slug": "crimson-circuit-vertical",
+    "category": "mobile-wallpapers",
+    "image": "/wallpapers/mobile-wallpapers/crimson-circuit-vertical.png",
+    "tags": [
+      "portrait",
+      "amoled",
+      "futuristic",
+      "mobile"
+    ],
+    "mood": "bold",
+    "style": "futuristic abstract",
+    "description": "Deep crimson circuitry glows through a vertical black field with sharp highlights and dense OLED contrast.",
+    "width": 1024,
+    "height": 1536,
+    "createdAt": "2026-03-13T06:08:43.957Z",
+    "accessLevel": "free"
+  },
+  {
     "title": "Dragon Over Ember Keep",
     "slug": "dragon-over-ember-keep",
     "category": "fantasy-wallpapers",
