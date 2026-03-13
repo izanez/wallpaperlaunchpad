@@ -58,5 +58,35 @@
     "categories": ["dark-fantasy-wallpapers", "fantasy-wallpapers"],
     "collections": ["dark-dragon-pack"],
     "wallpapers": ["crown-of-hollow-ruins", "ashen-knight-vigil", "dragon-over-ember-keep"]
+  },
+  {
+    "title": "AMOLED Mobile Wallpapers",
+    "slug": "amoled-mobile-wallpapers",
+    "description": "Explore AMOLED mobile wallpapers with dark contrast, OLED glow, and portrait-first compositions.",
+    "intro": "AMOLED mobile wallpapers stay popular because they make modern phones look sharper and more premium. They rely on deep dark areas, controlled highlights, and portrait framing that leaves room for lock-screen UI.",
+    "tags": ["amoled", "mobile", "portrait"],
+    "categories": ["mobile-wallpapers", "cyberpunk-wallpapers"],
+    "collections": ["amoled-mobile-pack", "neon-city-pack"],
+    "wallpapers": ["obsidian-bloom-screen", "prism-pulse-drift", "moon-sigil-lock-screen"]
+  },
+  {
+    "title": "Sci-Fi Combat Wallpapers",
+    "slug": "sci-fi-combat-wallpapers",
+    "description": "Find sci-fi combat wallpapers with raids, arenas, energy gates, and futuristic battle atmosphere.",
+    "intro": "Sci-fi combat wallpapers feel intense and polished because they blend strong silhouettes, artificial lighting, and focused action beats. They are a natural fit for gaming and cyberpunk-oriented setups.",
+    "tags": ["sci-fi", "combat", "gaming"],
+    "categories": ["gaming-wallpapers", "cyberpunk-wallpapers"],
+    "collections": ["sci-fi-combat-pack"],
+    "wallpapers": ["boss-gate-awakening", "neon-arena-clash", "signal-tower-skyline"]
+  },
+  {
+    "title": "Fantasy Castle Wallpapers",
+    "slug": "fantasy-castle-wallpapers",
+    "description": "Browse fantasy castle wallpapers with high kingdoms, shrine keeps, and atmospheric strongholds.",
+    "intro": "Fantasy castle wallpapers create structure and scale in a way that works perfectly for desktop backgrounds. They feel grand, cinematic, and easy to pair with dark modern interfaces.",
+    "tags": ["fantasy", "castles", "kingdoms"],
+    "categories": ["fantasy-wallpapers", "dark-fantasy-wallpapers"],
+    "collections": ["fantasy-castles-pack", "dark-dragon-pack"],
+    "wallpapers": ["castle-of-aurora-peaks", "dragon-shrine-falls", "emerald-spellwoods"]
   }
 ]

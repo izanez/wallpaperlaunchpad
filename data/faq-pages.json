@@ -67,5 +67,51 @@
     "relatedCategories": ["space-wallpapers", "mobile-wallpapers", "cyberpunk-wallpapers"],
     "relatedCollections": ["space-dreams-pack"],
     "featuredWallpapers": ["orbit-above-andara", "nebula-diver", "solar-bloom-lock-screen"]
+  },
+  {
+    "title": "AMOLED Mobile Wallpaper FAQ",
+    "slug": "amoled-mobile-wallpaper-faq",
+    "description": "Common questions about AMOLED mobile wallpapers, lock-screen readability, and OLED-friendly visual styles.",
+    "intro": "AMOLED mobile wallpapers are one of the strongest directions for phone screens because they balance contrast, readability, and premium color. This FAQ covers what makes them work and how to choose them well.",
+    "questions": [
+      {
+        "question": "What makes a wallpaper AMOLED-friendly?",
+        "answer": "Large dark areas, controlled glow, and a clear portrait focal point make a wallpaper especially effective on AMOLED and OLED phones."
+      },
+      {
+        "question": "Are AMOLED wallpapers only good for dark themes?",
+        "answer": "Mostly yes, but that is part of their appeal. They pair especially well with dark UI, lock-screen widgets, and modern phone hardware."
+      },
+      {
+        "question": "Which AMOLED wallpaper styles work best on lock screens?",
+        "answer": "Minimal dark florals, neon portrait scenes, moon symbols, and gradient-glow compositions all work very well because they preserve readability near the top of the screen."
+      }
+    ],
+    "relatedCategories": ["mobile-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["amoled-mobile-pack", "neon-city-pack"],
+    "featuredWallpapers": ["obsidian-bloom-screen", "prism-pulse-drift", "moon-sigil-lock-screen"]
+  },
+  {
+    "title": "Sci-Fi Combat Wallpaper FAQ",
+    "slug": "sci-fi-combat-wallpaper-faq",
+    "description": "Answers to common questions about sci-fi combat wallpapers for gaming desks, dark setups, and futuristic themes.",
+    "intro": "Sci-fi combat wallpapers are a strong choice for gaming setups because they feel energetic, high-contrast, and immersive. This FAQ explains what makes them work and where they fit best.",
+    "questions": [
+      {
+        "question": "Why do sci-fi combat wallpapers work well for gaming setups?",
+        "answer": "They match the mood of battlestations by combining dark contrast, artificial lighting, and high-energy focal points like raid gates, arenas, and armored silhouettes."
+      },
+      {
+        "question": "Are combat wallpapers too distracting for desktop use?",
+        "answer": "Not if they use one main action moment and controlled composition. The best ones feel dynamic without becoming cluttered behind windows and icons."
+      },
+      {
+        "question": "Which categories should I browse for futuristic combat scenes?",
+        "answer": "Start with gaming and cyberpunk categories, then explore curated packs like Sci-Fi Combat Pack for a more focused selection."
+      }
+    ],
+    "relatedCategories": ["gaming-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["sci-fi-combat-pack"],
+    "featuredWallpapers": ["boss-gate-awakening", "neon-arena-clash", "signal-tower-skyline"]
   }
 ]

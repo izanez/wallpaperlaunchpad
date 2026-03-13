@@ -136,5 +136,74 @@
     "relatedCategories": ["mobile-wallpapers", "cyberpunk-wallpapers", "space-wallpapers"],
     "relatedCollections": ["neon-city-pack", "space-dreams-pack"],
     "featuredWallpapers": ["vertical-neon-drift", "solar-bloom-lock-screen", "nebula-diver"]
+  },
+  {
+    "title": "Fantasy Castle Wallpapers for Cinematic Desktops",
+    "slug": "fantasy-castle-wallpaper-guide",
+    "description": "Explore fantasy castle wallpapers with cloud kingdoms, glowing keeps, and cinematic architecture built for wide screens.",
+    "intro": "Fantasy castle wallpapers work especially well on desktop because towers, walls, bridges, and skies naturally create panoramic structure. They combine story and scale while staying readable behind icons and windows.",
+    "sections": [
+      {
+        "heading": "Why castle scenes work so well",
+        "content": "Castle wallpapers give the eye clear architecture to follow, which helps a background feel immersive without becoming chaotic. Ramparts, towers, and dramatic horizons fill widescreen layouts naturally."
+      },
+      {
+        "heading": "Best visual directions for castle art",
+        "content": "Aurora-lit kingdoms, dragon shrine fortresses, storm-battered walls, and luminous mountain keeps all make especially strong fantasy desktop wallpapers."
+      },
+      {
+        "heading": "How to style a fantasy setup",
+        "content": "Use castle wallpapers when you want a cleaner fantasy mood than character-heavy artwork. They pair well with dark interfaces, themed icons, and high-contrast desktop themes."
+      }
+    ],
+    "relatedCategories": ["fantasy-wallpapers", "dark-fantasy-wallpapers"],
+    "relatedCollections": ["fantasy-castles-pack", "dark-dragon-pack"],
+    "featuredWallpapers": ["castle-of-aurora-peaks", "dragon-shrine-falls", "emerald-spellwoods"]
+  },
+  {
+    "title": "Best AMOLED Mobile Wallpapers for OLED Phones",
+    "slug": "best-amoled-mobile-wallpapers",
+    "description": "Find AMOLED mobile wallpapers with deep blacks, sharp glow, and lock-screen-safe composition for OLED phones.",
+    "intro": "The strongest AMOLED mobile wallpapers use darkness deliberately. They keep the screen dramatic while leaving enough breathing room for widgets, clocks, and app icons, which is why they remain one of the best visual directions for phones.",
+    "sections": [
+      {
+        "heading": "What to look for in an AMOLED mobile wallpaper",
+        "content": "Look for portrait composition, strong contrast, limited highlight zones, and a focal point that stays readable near the upper half of the screen."
+      },
+      {
+        "heading": "Best styles for OLED phones",
+        "content": "Dark floral abstracts, neon portrait scenes, moon sigils, and futuristic circuit art all work especially well because they preserve deep black areas while still feeling premium."
+      },
+      {
+        "heading": "How to build a balanced phone wallpaper set",
+        "content": "Mix one or two bold wallpapers with a few calmer everyday options. That keeps your lock screen library flexible without losing the premium AMOLED look."
+      }
+    ],
+    "relatedCategories": ["mobile-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["amoled-mobile-pack", "neon-city-pack"],
+    "featuredWallpapers": ["obsidian-bloom-screen", "prism-pulse-drift", "moon-sigil-lock-screen"]
+  },
+  {
+    "title": "Sci-Fi Combat Wallpapers for Gaming Setups",
+    "slug": "sci-fi-combat-wallpaper-guide",
+    "description": "Browse sci-fi combat wallpapers with raid gates, neon arenas, and futuristic action scenes for battlestations.",
+    "intro": "Sci-fi combat wallpapers are ideal for gaming setups because they combine movement, scale, and lighting without losing clarity. Arena scenes, raids, and futuristic conflict all translate well into bold desktop backgrounds.",
+    "sections": [
+      {
+        "heading": "Why combat scenes fit gaming desks",
+        "content": "They create instant energy and work well with RGB gear, dark room lighting, and high-refresh displays. The strongest ones use one dominant action moment and clean environmental framing."
+      },
+      {
+        "heading": "Best sci-fi combat motifs",
+        "content": "Raid gates, mech arenas, neon battlegrounds, signal towers, and armored silhouettes create the most memorable sci-fi gaming wallpapers."
+      },
+      {
+        "heading": "How to avoid visual clutter",
+        "content": "Choose artwork with one focal confrontation and controlled lighting. That keeps the setup dramatic while leaving enough calm space for desktop windows and launchers."
+      }
+    ],
+    "relatedCategories": ["gaming-wallpapers", "cyberpunk-wallpapers"],
+    "relatedCollections": ["sci-fi-combat-pack"],
+    "featuredWallpapers": ["boss-gate-awakening", "neon-arena-clash", "signal-tower-skyline"]
   }
 ]
