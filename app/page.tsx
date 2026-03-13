@@ -26,7 +26,7 @@ export default function HomePage() {
   const collections = getCollections();
   const newestWallpapers = getNewestWallpapers(6);
   const trendingWallpapers = getPopularWallpapers(6);
-  const featuredCollections = collections.slice(0, 3);
+  const featuredCollections = collections.slice(0, 6);
   const spotlightWallpaper = trendingWallpapers[0];
   const categoryCards = categories.map((category) => ({
     category,

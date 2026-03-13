@@ -52,5 +52,61 @@
       "pack"
     ],
     "accessLevel": "premium"
+  },
+  {
+    "title": "Fantasy Castles Pack",
+    "slug": "fantasy-castles-pack",
+    "coverImage": "/wallpapers/fantasy-wallpapers/castle-of-aurora-peaks.png",
+    "shortDescription": "High-detail fantasy castle scenes with cloud kingdoms, dragon shrines, and luminous spellwood atmospheres.",
+    "wallpapers": [
+      "castle-of-aurora-peaks",
+      "dragon-shrine-falls",
+      "emerald-spellwoods"
+    ],
+    "tags": [
+      "fantasy",
+      "castles",
+      "magic",
+      "pack"
+    ],
+    "accessLevel": "premium"
+  },
+  {
+    "title": "AMOLED Mobile Pack",
+    "slug": "amoled-mobile-pack",
+    "coverImage": "/wallpapers/mobile-wallpapers/obsidian-bloom-screen.png",
+    "shortDescription": "Portrait-first OLED wallpapers with dark contrast, sharp highlights, and clean lock-screen-friendly composition.",
+    "wallpapers": [
+      "obsidian-bloom-screen",
+      "prism-pulse-drift",
+      "crimson-circuit-vertical",
+      "moon-sigil-lock-screen"
+    ],
+    "tags": [
+      "mobile",
+      "amoled",
+      "portrait",
+      "pack"
+    ],
+    "accessLevel": "premium"
+  },
+  {
+    "title": "Sci-Fi Combat Pack",
+    "slug": "sci-fi-combat-pack",
+    "coverImage": "/wallpapers/gaming-wallpapers/boss-gate-awakening.png",
+    "shortDescription": "A focused pack of high-intensity sci-fi combat scenes built around arenas, raids, and futuristic action lighting.",
+    "wallpapers": [
+      "boss-gate-awakening",
+      "neon-arena-clash",
+      "signal-tower-skyline",
+      "vertical-neon-signal"
+    ],
+    "tags": [
+      "gaming",
+      "cyberpunk",
+      "sci-fi",
+      "pack"
+    ],
+    "accessLevel": "premium"
   }
 ]
