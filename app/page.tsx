@@ -6,9 +6,9 @@ import { StructuredData } from "@/components/structured-data";
 import { WallpaperGrid } from "@/components/wallpaper-grid";
 import {
   getCategories,
-  getCollections,
+  getCuratedFeaturedCollections,
+  getCuratedTrendingWallpapers,
   getNewestWallpapers,
-  getPopularWallpapers,
   getWallpapersByCategory
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
@@ -23,10 +23,9 @@ export const metadata = buildMetadata({
 
 export default function HomePage() {
   const categories = getCategories();
-  const collections = getCollections();
   const newestWallpapers = getNewestWallpapers(6);
-  const trendingWallpapers = getPopularWallpapers(6);
-  const featuredCollections = collections.slice(0, 6);
+  const trendingWallpapers = getCuratedTrendingWallpapers(6);
+  const featuredCollections = getCuratedFeaturedCollections(6);
   const spotlightWallpaper = trendingWallpapers[0];
   const categoryCards = categories.map((category) => ({
     category,
@@ -73,9 +72,9 @@ export default function HomePage() {
               { href: "/categories/fantasy-wallpapers", label: "Fantasy Wallpapers" },
               { href: "/categories/cyberpunk-wallpapers", label: "Cyberpunk Wallpapers" },
               { href: "/categories/space-wallpapers", label: "Space Wallpapers" },
-              { href: "/collections/dark-dragon-pack", label: "Dark Dragon Pack" },
-              { href: "/collections/neon-city-pack", label: "Neon City Pack" },
-              { href: "/collections/space-dreams-pack", label: "Space Dreams Pack" }
+              { href: "/collections/fantasy-castles-pack", label: "Fantasy Castles Pack" },
+              { href: "/collections/amoled-mobile-pack", label: "AMOLED Mobile Pack" },
+              { href: "/collections/sci-fi-combat-pack", label: "Sci-Fi Combat Pack" }
             ].map((link) => (
               <Link
                 key={link.href}

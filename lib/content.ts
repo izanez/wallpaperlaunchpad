@@ -95,10 +95,48 @@ export function getNewestWallpapers(limit = 4) {
   return getWallpapers().slice(0, limit);
 }
 
+const curatedTrendingSlugs = [
+  "castle-of-aurora-peaks",
+  "signal-tower-skyline",
+  "sapphire-rift-voyager",
+  "boss-gate-awakening",
+  "obsidian-bloom-screen",
+  "cathedral-of-black-rain"
+];
+
+const curatedFeaturedCollectionSlugs = [
+  "fantasy-castles-pack",
+  "amoled-mobile-pack",
+  "sci-fi-combat-pack",
+  "dark-dragon-pack",
+  "neon-city-pack",
+  "space-dreams-pack"
+];
+
 export function getPopularWallpapers(limit = 4) {
   return getWallpapers()
     .sort((a, b) => b.tags.length - a.tags.length)
     .slice(0, limit);
+}
+
+export function getCuratedTrendingWallpapers(limit = 6) {
+  const curated = getWallpapersBySlugs(curatedTrendingSlugs);
+  const fallback = getWallpapers().filter(
+    (wallpaper) => !curated.some((item) => item.slug === wallpaper.slug)
+  );
+
+  return [...curated, ...fallback].slice(0, limit);
+}
+
+export function getCuratedFeaturedCollections(limit = 6) {
+  const curated = curatedFeaturedCollectionSlugs
+    .map((slug) => getCollectionBySlug(slug))
+    .filter((collection): collection is Collection => Boolean(collection));
+  const fallback = getCollections().filter(
+    (collection) => !curated.some((item) => item.slug === collection.slug)
+  );
+
+  return [...curated, ...fallback].slice(0, limit);
 }
 
 type RelatedWallpaperScore = {
