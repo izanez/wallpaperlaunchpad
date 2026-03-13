@@ -98,4 +98,5 @@ export type GenerateWallpaperInput = {
   style: string;
   outputCount: number;
   orientation: Orientation;
+  collectionSlug?: string;
 };

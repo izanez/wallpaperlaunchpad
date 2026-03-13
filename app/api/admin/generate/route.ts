@@ -1,7 +1,8 @@
 import path from "path";
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
-import { getCategoryBySlug } from "@/lib/content";
+import { getCategoryBySlug, getCollectionBySlug } from "@/lib/content";
+import { appendWallpapersToCollection } from "@/lib/collection-store";
 import {
   buildWallpaperDescription,
   buildWallpaperPrompt,
@@ -43,6 +44,7 @@ function parseRequestBody(body: unknown): GenerateWallpaperInput | null {
 
   return {
     category: candidate.category,
+    collectionSlug: typeof candidate.collectionSlug === "string" ? candidate.collectionSlug : undefined,
     theme: candidate.theme,
     mood: candidate.mood,
     style: candidate.style,
@@ -69,6 +71,10 @@ export async function POST(request: Request) {
 
   if (!category) {
     return NextResponse.json({ error: "Unknown category." }, { status: 400 });
+  }
+
+  if (payload.collectionSlug && !getCollectionBySlug(payload.collectionSlug)) {
+    return NextResponse.json({ error: "Unknown collection." }, { status: 400 });
   }
 
   const existingWallpapers = await readWallpaperData();
@@ -125,8 +131,15 @@ export async function POST(request: Request) {
 
   await appendWallpapers(createdWallpapers);
 
+  if (payload.collectionSlug) {
+    await appendWallpapersToCollection(
+      payload.collectionSlug,
+      createdWallpapers.map((wallpaper) => wallpaper.slug)
+    );
+  }
+
   return NextResponse.json({
-    message: `Generated ${createdWallpapers.length} wallpaper${createdWallpapers.length === 1 ? "" : "s"} for ${category.name}.`,
+    message: `Generated ${createdWallpapers.length} wallpaper${createdWallpapers.length === 1 ? "" : "s"} for ${category.name}${payload.collectionSlug ? " and added them to the selected collection" : ""}.`,
     wallpapers: createdWallpapers.map((wallpaper) => ({
       title: wallpaper.title,
       slug: wallpaper.slug,

@@ -7,6 +7,11 @@ type CategoryOption = {
   name: string;
 };
 
+type CollectionOption = {
+  slug: string;
+  title: string;
+};
+
 type GenerateResponse = {
   message: string;
   wallpapers: Array<{ title: string; slug: string; image: string }>;
@@ -14,8 +19,15 @@ type GenerateResponse = {
 
 const starterThemes = ["dragons", "castles", "neon cities", "galaxies", "warriors", "ruins"];
 
-export function AdminGeneratorForm({ categories }: { categories: CategoryOption[] }) {
+export function AdminGeneratorForm({
+  categories,
+  collections
+}: {
+  categories: CategoryOption[];
+  collections: CollectionOption[];
+}) {
   const [category, setCategory] = useState(categories[0]?.slug ?? "");
+  const [collectionSlug, setCollectionSlug] = useState("");
   const [theme, setTheme] = useState(starterThemes[0]);
   const [mood, setMood] = useState("cinematic");
   const [style, setStyle] = useState("ultra detailed concept art");
@@ -39,6 +51,7 @@ export function AdminGeneratorForm({ categories }: { categories: CategoryOption[
         },
         body: JSON.stringify({
           category,
+          collectionSlug: collectionSlug || undefined,
           theme,
           mood,
           style,
@@ -89,6 +102,23 @@ export function AdminGeneratorForm({ categories }: { categories: CategoryOption[
               className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none"
               placeholder="dragons"
             />
+          </label>
+          <label className="grid gap-2">
+            <span className="text-sm text-slate-300">Collection</span>
+            <select
+              value={collectionSlug}
+              onChange={(event) => setCollectionSlug(event.target.value)}
+              className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none"
+            >
+              <option value="" className="bg-slate-950">
+                none
+              </option>
+              {collections.map((option) => (
+                <option key={option.slug} value={option.slug} className="bg-slate-950">
+                  {option.title}
+                </option>
+              ))}
+            </select>
           </label>
           <label className="grid gap-2">
             <span className="text-sm text-slate-300">Mood</span>
@@ -149,8 +179,9 @@ export function AdminGeneratorForm({ categories }: { categories: CategoryOption[
         <h2 className="text-xl font-semibold text-white">Generation Notes</h2>
         <p className="mt-3 text-sm leading-7 text-slate-300">
           The generator writes image files into <code>/public/wallpapers/{"{category}"}/</code>
-          and prepends matching metadata into <code>/data/wallpapers.json</code>. It requires
-          <code> OPENAI_API_KEY </code> in the environment.
+          and prepends matching metadata into <code>/data/wallpapers.json</code>. If a collection
+          is selected, it also appends the new wallpaper slugs into <code>/data/collections.json</code>.
+          It requires <code> OPENAI_API_KEY </code> in the environment.
         </p>
         <div className="mt-6 rounded-3xl border border-white/10 bg-black/20 p-5">
           <p className="text-sm text-slate-200">Suggested starter themes</p>

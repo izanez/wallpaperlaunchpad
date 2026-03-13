@@ -1,5 +1,5 @@
 import { AdminGeneratorForm } from "@/components/admin-generator-form";
-import { getCategories } from "@/lib/content";
+import { getCategories, getCollections } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
@@ -13,6 +13,10 @@ export default function AdminGeneratePage() {
     slug: category.slug,
     name: category.name
   }));
+  const collections = getCollections().map((collection) => ({
+    slug: collection.slug,
+    title: collection.title
+  }));
 
   return (
     <div className="space-y-8">
@@ -24,7 +28,7 @@ export default function AdminGeneratePage() {
           image generation API, and persist files plus metadata directly into the repository.
         </p>
       </section>
-      <AdminGeneratorForm categories={categories} />
+      <AdminGeneratorForm categories={categories} collections={collections} />
     </div>
   );
 }
