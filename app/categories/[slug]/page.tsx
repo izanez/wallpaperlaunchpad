@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { StructuredData } from "@/components/structured-data";
 import { WallpaperBrowser } from "@/components/wallpaper-browser";
 import {
   getCategories,
@@ -9,6 +10,7 @@ import {
   getWallpapersByCategory
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
+import { buildBreadcrumbSchema, buildCategorySchema } from "@/lib/structured-data";
 
 export function generateStaticParams() {
   return getCategories().map((category) => ({ slug: category.slug }));
@@ -57,6 +59,16 @@ export default async function CategoryPage({
 
   return (
     <div className="space-y-10">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Categories", path: "/browse" },
+            { name: category.name, path: `/categories/${category.slug}` }
+          ]),
+          buildCategorySchema(category, wallpapers)
+        ]}
+      />
       <section className="glass-panel rounded-[2rem] p-8">
         <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">Collection</p>
         <h1 className="mt-3 text-4xl font-semibold text-white">{category.name}</h1>

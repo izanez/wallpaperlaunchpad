@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CategoryCard } from "@/components/category-card";
 import { CollectionGrid } from "@/components/collection-grid";
 import { Hero } from "@/components/hero";
+import { StructuredData } from "@/components/structured-data";
 import { WallpaperGrid } from "@/components/wallpaper-grid";
 import {
   getCategories,
@@ -11,6 +12,7 @@ import {
   getWallpapersByCategory
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
+import { buildBreadcrumbSchema, buildCollectionPageSchema } from "@/lib/structured-data";
 
 export const metadata = buildMetadata({
   title: "WallpaperLaunchpad | AI Wallpapers for Desktop & Mobile",
@@ -33,6 +35,22 @@ export default function HomePage() {
 
   return (
     <div className="space-y-20">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([{ name: "Home", path: "/" }]),
+          buildCollectionPageSchema({
+            title: "WallpaperLaunchpad Home",
+            description:
+              "Browse AI wallpapers for desktop and mobile across categories, packs, and trending drops.",
+            path: "/",
+            items: trendingWallpapers.map((wallpaper) => ({
+              title: wallpaper.title,
+              path: `/wallpapers/${wallpaper.slug}`,
+              image: wallpaper.image
+            }))
+          })
+        ]}
+      />
       <Hero spotlightWallpaper={spotlightWallpaper} featuredCollection={featuredCollections[0]} />
 
       <section className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">

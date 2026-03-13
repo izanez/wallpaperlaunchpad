@@ -1,4 +1,5 @@
 import { AccessBadge } from "@/components/access-badge";
+import { StructuredData } from "@/components/structured-data";
 import { UpgradeCTA } from "@/components/upgrade-cta";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,6 +18,7 @@ import {
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
 import { buildCollectionAltText } from "@/lib/seo";
+import { buildBreadcrumbSchema, buildCollectionSchema } from "@/lib/structured-data";
 
 export function generateStaticParams() {
   return getCollections().map((collection) => ({ slug: collection.slug }));
@@ -66,6 +68,16 @@ export default async function CollectionPage({
 
   return (
     <div className="space-y-10">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Collections", path: "/collections" },
+            { name: collection.title, path: `/collections/${collection.slug}` }
+          ]),
+          buildCollectionSchema(collection, wallpapers)
+        ]}
+      />
       <section className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="glass-panel overflow-hidden rounded-[2rem]">
           <div className="relative aspect-[16/10] min-h-[320px]">

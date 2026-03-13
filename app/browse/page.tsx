@@ -1,6 +1,8 @@
 import { WallpaperBrowser } from "@/components/wallpaper-browser";
+import { StructuredData } from "@/components/structured-data";
 import { getWallpapers, getWallpaperFilterOptions } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
+import { buildBreadcrumbSchema, buildCollectionPageSchema } from "@/lib/structured-data";
 
 export const metadata = buildMetadata({
   title: "Browse Wallpapers | WallpaperLaunchpad",
@@ -15,6 +17,25 @@ export default function BrowsePage() {
 
   return (
     <div className="space-y-8">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Browse", path: "/browse" }
+          ]),
+          buildCollectionPageSchema({
+            title: "Browse Wallpapers",
+            description:
+              "Search and filter AI wallpapers by category, format, mood, style, tags, and sort order.",
+            path: "/browse",
+            items: wallpapers.slice(0, 24).map((wallpaper) => ({
+              title: wallpaper.title,
+              path: `/wallpapers/${wallpaper.slug}`,
+              image: wallpaper.image
+            }))
+          })
+        ]}
+      />
       <section className="max-w-4xl space-y-4">
         <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">Browse Library</p>
         <h1 className="text-4xl font-semibold text-white">Search across every wallpaper</h1>

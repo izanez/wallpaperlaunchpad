@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CollectionGrid } from "@/components/collection-grid";
+import { StructuredData } from "@/components/structured-data";
 import { WallpaperGrid } from "@/components/wallpaper-grid";
 import {
   getCategoryBySlug,
@@ -10,6 +11,7 @@ import {
   getWallpapersBySlugs
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
+import { buildBreadcrumbSchema, buildFaqSchema } from "@/lib/structured-data";
 
 export function generateStaticParams() {
   return getFaqPages().map((page) => ({ slug: page.slug }));
@@ -56,6 +58,16 @@ export default async function FaqPage({
 
   return (
     <div className="space-y-10">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "FAQ", path: "/faq" },
+            { name: page.title, path: `/faq/${page.slug}` }
+          ]),
+          buildFaqSchema(page)
+        ]}
+      />
       <section className="glass-panel rounded-[2rem] p-8">
         <p className="text-sm uppercase tracking-[0.24em] text-cyan-200/80">FAQ Page</p>
         <h1 className="mt-3 text-4xl font-semibold text-white">{page.title}</h1>

@@ -79,6 +79,7 @@ Recommended:
 
 - `OPENAI_IMAGE_MODEL`
 - `NEXT_PUBLIC_SITE_URL`
+- `GOOGLE_SITE_VERIFICATION`
 - `ADMIN_BASIC_AUTH_USERNAME`
 - `ADMIN_BASIC_AUTH_PASSWORD`
 
@@ -129,8 +130,15 @@ Set these environment variables in Vercel before using the admin generator:
 - `OPENAI_API_KEY`
 - `OPENAI_IMAGE_MODEL`
 - `NEXT_PUBLIC_SITE_URL`
+- `GOOGLE_SITE_VERIFICATION`
 - `ADMIN_BASIC_AUTH_USERNAME`
 - `ADMIN_BASIC_AUTH_PASSWORD`
+
+Google Search Console:
+
+- add your domain in Google Search Console
+- copy the verification token into `GOOGLE_SITE_VERIFICATION`
+- redeploy so Next.js emits the verification metadata
 
 Deploy:
 

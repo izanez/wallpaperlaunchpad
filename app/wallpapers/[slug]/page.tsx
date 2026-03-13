@@ -1,5 +1,6 @@
 import { AccessBadge } from "@/components/access-badge";
 import { FavoriteButton } from "@/components/favorite-button";
+import { StructuredData } from "@/components/structured-data";
 import { UpgradeCTA } from "@/components/upgrade-cta";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,6 +16,7 @@ import {
 } from "@/lib/content";
 import { buildMetadata } from "@/lib/metadata";
 import { buildWallpaperAltText } from "@/lib/seo";
+import { buildBreadcrumbSchema, buildWallpaperSchema } from "@/lib/structured-data";
 import {
   getWallpaperFilename,
   getWallpaperOrientation,
@@ -68,6 +70,16 @@ export default async function WallpaperPage({
 
   return (
     <div className="space-y-10">
+      <StructuredData
+        data={[
+          buildBreadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: category?.name ?? "Wallpapers", path: category ? `/categories/${category.slug}` : "/browse" },
+            { name: wallpaper.title, path: `/wallpapers/${wallpaper.slug}` }
+          ]),
+          buildWallpaperSchema(wallpaper, category?.name)
+        ]}
+      />
       <section className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="glass-panel overflow-hidden rounded-[2rem]">
           <div className="relative aspect-[16/10] min-h-[320px]">
